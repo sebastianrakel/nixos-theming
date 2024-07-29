@@ -2,10 +2,10 @@
 {
   perSystem = { pkgs, ... }:
     let
-      scheme_path = ../schemes;
-      template_path = ../templates;
-      theme_path = ../themes;
-      cache_path = ../cache;
+      scheme_path = "./schemes";
+      template_path = "./templates";
+      theme_path = "./themes";
+      cache_path = "./cache";
       
       schemes = [
         "github"
@@ -20,6 +20,8 @@
         "fzf"
         "rofi"
         "styles"
+        "herbstluftwm"
+        "shell"
       ];
       
       base16-builder = pkgs.runCommandLocal "base16-builder"
@@ -33,10 +35,12 @@
           script = ./base16-builder.py;
         }''
          makeWrapper $script $out/bin/$name \
-                     --suffix scheme_path ${scheme_path} \
-                     --suffix template_path ${template_path} \
-                     --suffix themes_path ${theme_path} \
-                     --suffix cache_path ${cache_path}
+                     --add-flags "--scheme_path ${scheme_path}" \
+                     --add-flags "--template_path ${template_path}" \
+                     --add-flags "--themes_path ${theme_path}" \
+                     --add-flags "--cache_path ${cache_path}" \
+                     --add-flags "--schemes ${builtins.concatStringsSep "," schemes}" \
+                     --add-flags "--templates ${builtins.concatStringsSep "," templates}"
         '';
     in
     {

@@ -352,8 +352,8 @@ if __name__ == '__main__':
     parser.add_argument('--template_path')
     parser.add_argument('--themes_path')
     parser.add_argument('--cache_path')
-    parser.add_argument('-t','--template', nargs='+')
-    parser.add_argument('-s','--scheme', nargs='+')
+    parser.add_argument('-t','--templates')
+    parser.add_argument('-s','--schemes')
 
     args = parser.parse_args()
     config = {
@@ -364,11 +364,11 @@ if __name__ == '__main__':
             'default': args.scheme_list
         },
         'scheme_dir': args.scheme_path,
-        'template_path': args.template_path,
+        'template_dir': args.template_path,
         'output_dir': args.themes_path,
         'cache_dir': args.cache_path,
-        'schemes': args.scheme,
-        'template': args.template
+        'schemes': args.schemes.split(','),
+        'templates': args.templates.split(',')
     }
 
     print(config)
