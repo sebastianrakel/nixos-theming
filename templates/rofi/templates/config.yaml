@@ -2,7 +2,3 @@ default:
     extension: .rasi
     output: themes
 
-colors:
-    extension: .rasi
-    output: colors
-
