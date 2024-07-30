@@ -11,6 +11,7 @@
         "github"
         "nord"
         "dracula"
+        "penumbra"
       ];
       
       templates = [
