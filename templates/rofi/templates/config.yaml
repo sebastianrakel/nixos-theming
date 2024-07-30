@@ -6,6 +6,3 @@ colors:
     extension: .rasi
     output: colors
 
-old:
-    extension: .config
-    output: themes
