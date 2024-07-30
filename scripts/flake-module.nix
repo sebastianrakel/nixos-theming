@@ -12,6 +12,7 @@
         "nord"
         "dracula"
         "penumbra"
+        "harmonic"
       ];
       
       templates = [
