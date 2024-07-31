@@ -24,6 +24,7 @@
         "styles"
         "herbstluftwm"
         "shell"
+        "tmux"
       ];
       
       base16-builder = pkgs.runCommandLocal "base16-builder"
