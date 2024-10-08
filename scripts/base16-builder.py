@@ -324,7 +324,15 @@ def build_template(template_name):
     for scheme_name in schemes:
         scheme_data[scheme_name] = scheme_prepare(schemes[scheme_name])
 
+    blacklisted_keys = [
+        'base24'
+    ]
+        
     for template_config_key in template_config:
+        if template_config_key in blacklisted_keys:
+            logging.info(f'Template: {template_name} Blacklisted Key: {template_config_key}')
+            continue
+        
         mustache_path = os.path.join(template_path, f'{template_config_key}.mustache')
 
         with open(mustache_path, 'r') as f:
@@ -339,7 +347,7 @@ def build_template(template_name):
             with open(output_filepath, 'w') as f:
                 f.write(rendered)
 
-            logging.info(f'Output written: {output_filepath}')
+            logging.info(f'From: {mustache_path} Output written: {output_filepath}')
 
 
 if __name__ == '__main__':

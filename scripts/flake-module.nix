@@ -26,18 +26,23 @@
         "shell"
         "tmux"
       ];
+
+      python = pkgs.python3.withPackages (ps: with ps; [
+        requests
+        pystache
+        pyyaml
+      ]);
       
       base16-builder = pkgs.runCommandLocal "base16-builder"
         {
           nativeBuildInputs = [
             pkgs.makeWrapper
-            pkgs.python3
-            pkgs.python3Packages.requests
-            pkgs.python3Packages.pystache
+            python
           ];
           script = ./base16-builder.py;
         }''
          makeWrapper $script $out/bin/$name \
+                     --prefix PATH : ${lib.makeBinPath [ python ]} \
                      --add-flags "--scheme_path ${scheme_path}" \
                      --add-flags "--template_path ${template_path}" \
                      --add-flags "--themes_path ${theme_path}" \
