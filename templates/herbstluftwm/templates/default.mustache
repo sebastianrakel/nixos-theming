@@ -2,28 +2,28 @@
 
 # {{scheme-name}}
 
-hlwm_base00='#{{base00-hex}}'
-hlwm_base01='#{{base01-hex}}'
-hlwm_base02='#{{base02-hex}}'
-hlwm_base03='#{{base03-hex}}'
-hlwm_base04='#{{base04-hex}}'
-hlwm_base05='#{{base05-hex}}'
-hlwm_base06='#{{base06-hex}}'
-hlwm_base07='#{{base07-hex}}'
-hlwm_base08='#{{base08-hex}}'
-hlwm_base09='#{{base09-hex}}'
-hlwm_base0A='#{{base0A-hex}}'
-hlwm_base0B='#{{base0B-hex}}'
-hlwm_base0C='#{{base0C-hex}}'
-hlwm_base0D='#{{base0D-hex}}'
-hlwm_base0E='#{{base0E-hex}}'
-hlwm_base0F='#{{base0F-hex}}'
+hlwm_base00='#{{base00-hex}}' #bg
+hlwm_base01='#{{base01-hex}}' #green - bright
+hlwm_base02='#{{base02-hex}}' #yellow - bright
+hlwm_base03='#{{base03-hex}}' #black
+hlwm_base04='#{{base04-hex}}' #blue - bright
+hlwm_base05='#{{base05-hex}}' #fg
+hlwm_base06='#{{base06-hex}}' #magenta - bright
+hlwm_base07='#{{base07-hex}}' #white - bright
+hlwm_base08='#{{base08-hex}}' #red
+hlwm_base09='#{{base09-hex}}' #red - bright
+hlwm_base0A='#{{base0A-hex}}' #yellow
+hlwm_base0B='#{{base0B-hex}}' #green
+hlwm_base0C='#{{base0C-hex}}' #cyan
+hlwm_base0D='#{{base0D-hex}}' #blue
+hlwm_base0E='#{{base0E-hex}}' #magenta 
+hlwm_base0F='#{{base0F-hex}}' #cyan - bright
 
 herbstclient chain , \
-	, attr theme.color                        "${hlwm_base07}" \
+	, attr theme.color                        "${hlwm_base03}" \
 	, attr theme.background_color             "${hlwm_base00}" \
-	, attr theme.normal.color                 "${hlwm_base01}" \
-	, attr theme.active.color                 "${hlwm_base03}" \
+	, attr theme.normal.color                 "${hlwm_base03}" \
+	, attr theme.active.color                 "${hlwm_base0B}" \
 	, attr theme.active.background_color      "${hlwm_base00}" \
 	, attr theme.urgent.color                 "${hlwm_base08}" \
 	, attr theme.floating.active.color        "${hlwm_base03}" \
@@ -34,4 +34,4 @@ herbstclient chain , \
 	, attr settings.frame_border_normal_color "${hlwm_base00}" \
 	, attr settings.frame_border_active_color "${hlwm_base03}" \
 	, attr theme.title_color                  "${hlwm_base07}" \
-	, attr theme.active.title_color		  "${hlwm_base05}"
+	, attr theme.active.title_color		  "${hlwm_base03}"

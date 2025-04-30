@@ -4,8 +4,8 @@
 # Template author: Tinted Theming (https://github.com/tinted-theming)
 
 $ENV:FZF_DEFAULT_OPTS=@"
---color=bg:#000000,fg:#feacd0,hl:#1e1e1e
---color=bg+:#44bc44,fg+:#,hl+:#
---color=info:#00eff0,border:#00eff0,prompt:#44df44
---color=pointer:#ff66ff,marker:#,spinner:#,header:#f2f2f2
+--color=bg:#000000,fg:#ffffff,hl:#ff5f5f
+--color=bg+:#efef00,fg+:#,hl+:#
+--color=info:#feacd0,border:#feacd0,prompt:#44bc44
+--color=pointer:#2fafff,marker:#,spinner:#,header:#ff5f59
 "@
