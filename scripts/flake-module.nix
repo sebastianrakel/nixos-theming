@@ -13,6 +13,7 @@
         "dracula"
         "penumbra"
         "harmonic"
+        "modus"
       ];
       
       templates = [
