@@ -1,0 +1,47 @@
+## Base16 Modus Vivendi (Deuteranopia)
+# Author: emacs people
+[general]
+background = "#000000"
+border = "#989898"
+horizontal_rule = "#efef00"
+unread_indicator = "#cabf00"
+
+[text]
+primary = "#ffffff"
+secondary = "#989898"
+tertiary = "#cabf00"
+success = "#44bc44"
+error = "#ff5f59"
+
+[buffer]
+action = "#44bc44"
+background = "#000000"
+background_text_input = "#1e1e1e"
+background_title_bar = "#1e1e1e"
+border = "#1e1e1e"
+border_selected = "#989898"
+code = "#feacd0"
+highlight = "#ff5f59"
+nickname = "#00d3d0"
+selection = "#1e1e1e"
+timestamp = "#ffffff"
+topic = "#338fff"
+url = "#2fafff"
+
+[buffer.server_messages]
+join = "#44bc44"
+part = "#ff5f59"
+quit = "#ff5f59"
+default = "#00d3d0"
+
+[buttons.primary]
+background = "#000000"
+background_hover = "#1e1e1e"
+background_selected = "#1e1e1e"
+background_selected_hover = "#338fff"
+
+[buttons.secondary]
+background = "#44df44"
+background_hover = "#989898"
+background_selected = "#1e1e1e"
+background_selected_hover = "#338fff"

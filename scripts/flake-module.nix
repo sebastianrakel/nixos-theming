@@ -27,6 +27,7 @@
         "shell"
         "tmux"
         "polybar"
+        "halloy"
       ];
 
       python = pkgs.python3.withPackages (ps: with ps; [

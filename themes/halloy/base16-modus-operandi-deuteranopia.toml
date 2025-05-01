@@ -1,0 +1,47 @@
+## Base16 Modus Operandi (Deuteranopia)
+# Author: emacs people
+[general]
+background = "#ffffff"
+border = "#000000"
+horizontal_rule = "#006800"
+unread_indicator = "#008900"
+
+[text]
+primary = "#721045"
+secondary = "#000000"
+tertiary = "#008900"
+success = "#808000"
+error = "#f2f2f2"
+
+[buffer]
+action = "#808000"
+background = "#ffffff"
+background_text_input = "#695500"
+background_title_bar = "#695500"
+border = "#695500"
+border_selected = "#000000"
+code = "#008899"
+highlight = "#f2f2f2"
+nickname = "#0000ff"
+selection = "#695500"
+timestamp = "#721045"
+topic = "#0031a9"
+url = "#dd22dd"
+
+[buffer.server_messages]
+join = "#808000"
+part = "#f2f2f2"
+quit = "#f2f2f2"
+default = "#0000ff"
+
+[buttons.primary]
+background = "#ffffff"
+background_hover = "#695500"
+background_selected = "#695500"
+background_selected_hover = "#0031a9"
+
+[buttons.secondary]
+background = "#a60000"
+background_hover = "#000000"
+background_selected = "#695500"
+background_selected_hover = "#0031a9"

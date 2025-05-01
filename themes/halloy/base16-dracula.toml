@@ -1,0 +1,47 @@
+## Base16 Dracula
+# Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+[general]
+background = "#282936"
+border = "#f7f7fb"
+horizontal_rule = "#4d4f68"
+unread_indicator = "#00f769"
+
+[text]
+primary = "#e9e9f4"
+secondary = "#f7f7fb"
+tertiary = "#00f769"
+success = "#ebff87"
+error = "#ea51b2"
+
+[buffer]
+action = "#ebff87"
+background = "#282936"
+background_text_input = "#626483"
+background_title_bar = "#626483"
+border = "#626483"
+border_selected = "#f7f7fb"
+code = "#b45bcf"
+highlight = "#ea51b2"
+nickname = "#a1efe4"
+selection = "#626483"
+timestamp = "#e9e9f4"
+topic = "#62d6e8"
+url = "#62d6e8"
+
+[buffer.server_messages]
+join = "#ebff87"
+part = "#ea51b2"
+quit = "#ea51b2"
+default = "#a1efe4"
+
+[buttons.primary]
+background = "#282936"
+background_hover = "#626483"
+background_selected = "#626483"
+background_selected_hover = "#62d6e8"
+
+[buttons.secondary]
+background = "#3a3c4e"
+background_hover = "#f7f7fb"
+background_selected = "#626483"
+background_selected_hover = "#62d6e8"

@@ -1,0 +1,47 @@
+## Base16 Harmonic Light
+# Author: Jannik Siebert
+[general]
+background = "#F7F9FB"
+border = "#0b1c2c"
+horizontal_rule = "#cbd6e2"
+unread_indicator = "#8bbf56"
+
+[text]
+primary = "#405c79"
+secondary = "#0b1c2c"
+tertiary = "#8bbf56"
+success = "#56bf8b"
+error = "#bf8b56"
+
+[buffer]
+action = "#56bf8b"
+background = "#F7F9FB"
+background_text_input = "#aabcce"
+background_title_bar = "#aabcce"
+border = "#aabcce"
+border_selected = "#0b1c2c"
+code = "#bf568b"
+highlight = "#bf8b56"
+nickname = "#568bbf"
+selection = "#aabcce"
+timestamp = "#405c79"
+topic = "#627e99"
+url = "#8b56bf"
+
+[buffer.server_messages]
+join = "#56bf8b"
+part = "#bf8b56"
+quit = "#bf8b56"
+default = "#568bbf"
+
+[buttons.primary]
+background = "#F7F9FB"
+background_hover = "#aabcce"
+background_selected = "#aabcce"
+background_selected_hover = "#627e99"
+
+[buttons.secondary]
+background = "#E5EBF1"
+background_hover = "#0b1c2c"
+background_selected = "#aabcce"
+background_selected_hover = "#627e99"

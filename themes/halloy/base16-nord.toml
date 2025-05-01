@@ -1,0 +1,47 @@
+## Base16 Nord
+# Author: arcticicestudio
+[general]
+background = "#2E3440"
+border = "#8FBCBB"
+horizontal_rule = "#434C5E"
+unread_indicator = "#EBCB8B"
+
+[text]
+primary = "#E5E9F0"
+secondary = "#8FBCBB"
+tertiary = "#EBCB8B"
+success = "#A3BE8C"
+error = "#BF616A"
+
+[buffer]
+action = "#A3BE8C"
+background = "#2E3440"
+background_text_input = "#4C566A"
+background_title_bar = "#4C566A"
+border = "#4C566A"
+border_selected = "#8FBCBB"
+code = "#B48EAD"
+highlight = "#BF616A"
+nickname = "#88C0D0"
+selection = "#4C566A"
+timestamp = "#E5E9F0"
+topic = "#D8DEE9"
+url = "#81A1C1"
+
+[buffer.server_messages]
+join = "#A3BE8C"
+part = "#BF616A"
+quit = "#BF616A"
+default = "#88C0D0"
+
+[buttons.primary]
+background = "#2E3440"
+background_hover = "#4C566A"
+background_selected = "#4C566A"
+background_selected_hover = "#D8DEE9"
+
+[buttons.secondary]
+background = "#3B4252"
+background_hover = "#8FBCBB"
+background_selected = "#4C566A"
+background_selected_hover = "#D8DEE9"
