@@ -1,0 +1,3 @@
+[submodule "schemes/da-one"]
+	path = schemes/da-one
+	url = git@github.com:NNBnh/base16-da-one-schemes.git

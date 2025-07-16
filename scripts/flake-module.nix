@@ -6,16 +6,8 @@
       theme_path = "./themes";
       cache_path = "./cache";
 
-      schemes = [
-        "github"
-        "nord"
-        "dracula"
-        "penumbra"
-        "harmonic"
-        "modus"
-        "da-one-black"
-        "da-one-white"
-      ];
+      schemes =
+        [ "github" "nord" "dracula" "penumbra" "harmonic" "modus" "da-one" ];
 
       templates = [
         "alacritty"

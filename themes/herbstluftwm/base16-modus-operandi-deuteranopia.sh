@@ -3,21 +3,21 @@
 # Modus Operandi (Deuteranopia)
 
 hlwm_base00='#ffffff' #bg
-hlwm_base01='#a60000' #green - bright
-hlwm_base02='#006800' #yellow - bright
-hlwm_base03='#695500' #black
-hlwm_base04='#0031a9' #blue - bright
-hlwm_base05='#721045' #fg
-hlwm_base06='#005e8b' #magenta - bright
-hlwm_base07='#000000' #white - bright
-hlwm_base08='#f2f2f2' #red
-hlwm_base09='#d00000' #red - bright
-hlwm_base0A='#008900' #yellow
-hlwm_base0B='#808000' #green
-hlwm_base0C='#0000ff' #cyan
-hlwm_base0D='#dd22dd' #blue
-hlwm_base0E='#008899' #magenta 
-hlwm_base0F='#595959' #cyan - bright
+hlwm_base01='#eaeaea' #green - bright
+hlwm_base02='#d6d6d6' #yellow - bright
+hlwm_base03='#bfbfbf' #black
+hlwm_base04='#808080' #blue - bright
+hlwm_base05='#000000' #fg
+hlwm_base06='#3c3c3c' #magenta - bright
+hlwm_base07='#ffffff' #white - bright
+hlwm_base08='#d70000' #red
+hlwm_base09='#d75f00' #red - bright
+hlwm_base0A='#87af00' #yellow
+hlwm_base0B='#5f875f' #green
+hlwm_base0C='#5fafff' #cyan
+hlwm_base0D='#005faf' #blue
+hlwm_base0E='#af5fff' #magenta 
+hlwm_base0F='#ffaf00' #cyan - bright
 
 herbstclient chain , \
 	, attr theme.color                        "${hlwm_base03}" \
