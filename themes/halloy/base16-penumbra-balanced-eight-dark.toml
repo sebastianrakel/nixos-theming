@@ -36,12 +36,12 @@ default = "#00A2AF"
 
 [buttons.primary]
 background = "#303338"
-background_hover = "#8F8F8F"
-background_selected = "#636363"
+background_hover = "#636363"
+background_selected = "#8F8F8F"
 background_selected_hover = "#BEBEBE"
 
 [buttons.secondary]
 background = "#3E4044"
-background_hover = "#FFFDFB"
-background_selected = "#636363"
+background_hover = "#636363"
+background_selected = "#8F8F8F"
 background_selected_hover = "#BEBEBE"

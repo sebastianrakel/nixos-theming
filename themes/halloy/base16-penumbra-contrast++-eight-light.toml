@@ -36,12 +36,12 @@ default = "#00C4D7"
 
 [buttons.primary]
 background = "#FFF7ED"
-background_hover = "#AEAEAE"
-background_selected = "#DEDEDE"
+background_hover = "#DEDEDE"
+background_selected = "#AEAEAE"
 background_selected_hover = "#636363"
 
 [buttons.secondary]
 background = "#F2E6D4"
-background_hover = "#0D0F13"
-background_selected = "#DEDEDE"
+background_hover = "#DEDEDE"
+background_selected = "#AEAEAE"
 background_selected_hover = "#636363"
